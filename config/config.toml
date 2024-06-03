@@ -1,0 +1,9 @@
+# Logger configurations.
+[logger]
+    path   = "logs"
+    level  = "info"
+    stdout = true
+    RotateExpire         = "1d"
+    RotateBackupLimit    = 1
+    RotateBackupExpire   = "7d"
+    RotateBackupCompress = 9
