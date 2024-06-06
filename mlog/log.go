@@ -13,6 +13,7 @@ func Log() *Logger {
 		logger = &Logger{
 			config: cnf,
 		}
+		logger.SetLevelStr(cnf.Level)
 	}
 	return logger
 }

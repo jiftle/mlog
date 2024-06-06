@@ -5,6 +5,7 @@ import "github.com/BurntSushi/toml"
 type Config struct {
 	Path        string
 	Level       string
+	level       int
 	Stdout      bool
 	stackDeepth int
 }
