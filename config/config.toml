@@ -1,0 +1,5 @@
+[logger]
+    path   = "logs"
+    level  = "info"
+    stdout = true
+

@@ -1,7 +1,0 @@
-{
-    "logger": {
-        "path": "logs",
-        "level": "info",
-        "stdout": false
-    }
-}
