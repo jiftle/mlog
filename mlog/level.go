@@ -12,14 +12,6 @@ const (
 	LEVEL_ERRO
 )
 
-// defaultLevelPrefixes defines the default level and its mapping prefix string.
-var defaultLevelPrefixes = map[int]string{
-	LEVEL_DEBU: "DEBU",
-	LEVEL_INFO: "INFO",
-	LEVEL_WARN: "WARN",
-	LEVEL_ERRO: "ERRO",
-}
-
 var levelStringMap = map[string]int{
 	"DEBU":  LEVEL_DEBU | LEVEL_INFO | LEVEL_WARN | LEVEL_ERRO,
 	"DEBUG": LEVEL_DEBU | LEVEL_INFO | LEVEL_WARN | LEVEL_ERRO,
